@@ -78,10 +78,8 @@ wsl rust install: https://www.rust-lang.org/tools/install
 
 ubuntu packages here: https://packages.ubuntu.com/
 sudo apt-get update
-sudo apt install build-essential
-sudo apt install xcb (maybe not needed)
-sudo apt install libx11-xcb-dev
-sudo apt install libxcb-render
+sudo apt-get install build-essential
+sudo apt-get install libx11-xcb-dev
 sudo apt-get install libx11-dev
 sudo apt-get install libxcb-render-util0-dev
 sudo apt-get install libxcb-shape0-dev
