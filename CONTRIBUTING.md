@@ -73,3 +73,23 @@ changes you may:
 6. Iterate with the reviewer until the PR gets merged.
 
 [discord]: https://discord.gg/vt9DJSW
+
+wsl rust install: https://www.rust-lang.org/tools/install
+
+ubuntu packages here: https://packages.ubuntu.com/
+sudo apt-get update
+sudo apt install build-essential
+sudo apt install xcb (maybe not needed)
+sudo apt install libx11-xcb-dev
+sudo apt install libxcb-render
+sudo apt-get install libx11-dev
+sudo apt-get install libxcb-render-util0-dev
+sudo apt-get install libxcb-shape0-dev
+sudo apt-get install libxcb-xfixes0-dev
+
+wsl rust wasm: https://rustwasm.github.io/wasm-pack/installer/
+
+wsl overrides: https://docs.microsoft.com/en-us/windows/wsl/wsl-config
+wsl stop windows path: https://github.com/microsoft/WSL/issues/4234
+
+info: https://rapier.rs/docs/user_guides/rust/getting_started/
