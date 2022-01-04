@@ -171,4 +171,20 @@ impl RevoluteJoint {
 
         motor_last_angle + angle_diff
     }
+
+    /// Sets the position of the first local anchor
+    pub fn configure_local_anchor1_position(
+        &mut self,
+        new_pos: Point<Real>,
+    ) {
+        self.local_anchor1 = new_pos;
+    }
+
+    /// Sets the position of the second local anchor
+    pub fn configure_local_anchor2_position(
+        &mut self,
+        new_pos: Point<Real>,
+    ) {
+        self.local_anchor2 = new_pos;
+    }
 }
