@@ -33,7 +33,7 @@ resolver = "2"
 #debug = true
 codegen-units = 1
 #opt-level = 1
-#lto = true
+lto = true
 
 
 #[profile.dev.package.rapier3d]
